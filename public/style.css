@@ -1,0 +1,41 @@
+body {
+	background-color: rgb(88, 33, 15);
+}
+
+#timeNow {
+	size: 5px;
+	color: lightgray;
+	font-style: italic;
+	position: absolute;
+	right: 0px;
+	padding-right: 10px;
+	display: inline;
+}
+
+#form {
+	background-color: forestgreen;
+	padding: 1rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	box-sizing: border-box;
+	backdrop-filter: blur(10px);
+}
+
+#input {
+	flex-grow: 1;
+}
+
+#input:focus {
+	outline: none;
+}
+
+#messages > li {
+	padding: 0.5rem 2rem;
+	list-style-type: none;
+}
+#messages > li:nth-child(odd) {
+	background: #466416;
+}
